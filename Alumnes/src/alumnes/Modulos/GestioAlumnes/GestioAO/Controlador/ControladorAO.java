@@ -402,22 +402,7 @@ public class ControladorAO implements ActionListener, KeyListener, MouseListener
                             this.Alta.dispose();
                             new ControladorVent1(new Vent1()).iniciar();
 
-                            //Limpiamos formulario
-                        /*
-                        
-                             this.Alta.nom.setText("");
-                             this.Alta.cognom.setText("");
-                             this.Alta.DNI.setText("");
-                             this.Alta.beca.setText("");
-                             this.Alta.conexio.setText("");
-                             this.Alta.desconexio.setText("");
-                             this.Alta.curs.setText("");
-                             this.Alta.direccio.setText("");
-                             this.Alta.especialitat.setText("");
-                             this.Alta.naixement.setDate(null);
-                             this.Alta.user.setText("");
-                             this.Alta.pass.setText("");
-                             */
+            
                         }
 
                     }

@@ -340,7 +340,7 @@ public class AOBLL {
             //Naixement
         } else if (tipo == AfegirAlumneOnline.naixement.getDate()) {
             correcte = Validate.regexFecha(AfegirAlumneOnline.naixement.getDateFormatString());
-
+            
         }
 
         if (tipo != AfegirAlumneOnline.naixement) {
